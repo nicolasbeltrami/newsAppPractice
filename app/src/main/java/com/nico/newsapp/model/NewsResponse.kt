@@ -1,4 +1,6 @@
-package com.nico.newsapp
+package com.nico.newsapp.model
+
+import com.nico.newsapp.model.Article
 
 data class NewsResponse(
     val articles: List<Article>,
