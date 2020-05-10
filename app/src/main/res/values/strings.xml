@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Buscar...</string>
+    <string name="source">Fuente</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="published_at">FECHA PUBLICACION</string>
+    <string name="breaking_news">Últimas Noticias</string>
+    <string name="favorites">Favoritos</string>
+    <string name="search_menu">Buscar</string>
+</resources>
