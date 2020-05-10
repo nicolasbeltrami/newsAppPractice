@@ -1,6 +1,6 @@
 package com.nico.newsapp.api
 
-import com.nico.newsapp.NewsResponse
+import com.nico.newsapp.model.NewsResponse
 import com.nico.newsapp.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
