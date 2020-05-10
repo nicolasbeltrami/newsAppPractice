@@ -7,11 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.nico.newsapp.R
+import com.nico.newsapp.ui.MainActivity
+import com.nico.newsapp.ui.viewModels.NewsViewModel
 
 /**
  * A simple [Fragment] subclass.
  */
 class SearchNewsFragment : Fragment() {
+
+    lateinit var viewModel: NewsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -19,6 +23,11 @@ class SearchNewsFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_search_news, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        viewModel = (activity as MainActivity).viewModel
     }
 
 }
