@@ -1,4 +1,4 @@
-package com.nico.newsapp
+package com.nico.newsapp.model
 
 data class Source(
     val id: Any,
